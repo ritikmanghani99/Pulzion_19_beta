@@ -1,0 +1,307 @@
+html {
+    background: #9d9d9d;
+  }
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .imgs {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 10px 0 10px 0;
+  }
+  
+  body{
+    margin-top: 5px;
+	margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+	border-style: solid;
+		
+ }
+  h2{
+      text-align: center;
+      color: black
+  }
+  .infos h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+      font-size: 25px;
+    height: 30px;
+      margin: 0;
+      padding: 55px 0 15px 0;
+      text-shadow: 
+          0 0 1px #fff, 
+          0 1px 2px rgba(0,0,0,0.3);
+  }
+  
+  .infos p {
+    font-size: 15px;
+    color: #fff;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    padding-top: 10px;
+    margin: 0 30px;
+    line-height: 1.7;
+  }
+  
+  .infos p a {
+    text-decoration: none;
+    font-size: 200%;
+    font-family: 'Orbitron';
+    letter-spacing: 1px;
+    color:cyan;
+  }
+  
+  .info-1 p a:hover {
+       color: #b8860b;
+  }
+  .info-2 p a:hover {
+       color: #b8860b;
+    }
+    .info-3 p a:hover {
+       color: #b8860b;
+    }
+    .info-4 p a:hover {
+        color: #b8860b;
+    }
+    .info-5 p a:hover {
+        color: #b8860b;
+    }
+  
+  .info-6  a:hover {
+       color: #b8860b;
+  }
+  
+  .info-7 p a:hover {
+       color:#b8860b;
+  }
+  
+  .info-8 p a:hover {
+       color: #b8860b;
+  }
+  .info-1 {
+    background: rgba(0, 0, 0, 0.8);
+    width: inherit;
+    height: inherit;
+  border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+}
+  .img-1 {
+    background-image: url(G:\BetaFinal\Sponers-yash\circle);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: inset
+          0 0 0 20px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.1);
+      transition: all 0.4s ease-in-out;
+  }
+  
+  .img-1:hover {
+    box-shadow: 
+          inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+          0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imgs:hover .infos {
+    transform: scale(1);
+      opacity: 1;
+  }
+  
+  .info-2 {
+    background: rgba(0, 0, 0, 0.8);
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+}
+  
+.img-2 {
+    background-image: url(file:///home/yash2420/Bootstrap/circle/tieto.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: inset
+          0 0 0 20px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.1);
+      transition: all 0.4s ease-in-out;
+  }
+  
+  .img-2:hover {
+    box-shadow: 
+          inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+          0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-3 {
+    background: rgba(0, 0, 0, 0.8);
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+}
+  
+.img-3 {
+    background-image: url(file:///home/yash2420/Bootstrap/circle/monimo.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: inset
+          0 0 0 20px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.1);
+      transition: all 0.4s ease-in-out;
+  }
+  
+  .img-3:hover {
+    box-shadow: 
+          inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+          0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-4 {
+    background: rgba(0, 0, 0, 0.8);
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+}
+  
+.img-4 {
+    background-image: url(file:///home/yash2420/Bootstrap/circle/meraevent.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: inset
+          0 0 0 20px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.1);
+      transition: all 0.4s ease-in-out;
+  }
+  
+  .img-4:hover {
+    box-shadow: 
+          inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+          0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-5 {
+    background: rgba(0, 0, 0, 0.8);
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+}
+  
+.img-5 {
+    background-image: url(file:///home/yash2420/Bootstrap/circle/cyber.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: inset
+          0 0 0 20px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.1);
+      transition: all 0.4s ease-in-out;
+  }
+  
+  .img-5:hover {
+    box-shadow: 
+          inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+          0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-6 {
+    background: rgba(0, 0, 0, 0.8);
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+}
+  
+.img-6 {
+    background-image: url(file:///home/yash2420/Bootstrap/circle/coding.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: inset
+          0 0 0 20px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.1);
+      transition: all 0.4s ease-in-out;
+  }
+  
+  .img-6:hover {
+    box-shadow: 
+          inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+          0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-7 {
+    background: rgba(0, 0, 0, 0.8);
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+}
+  
+.img-7 {
+    background-image: url(file:///home/yash2420/Bootstrap/circle/urja.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: inset
+          0 0 0 20px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.1);
+      transition: all 0.4s ease-in-out;
+  }
+  
+  .img-7:hover {
+    box-shadow: 
+          inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+          0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-8 {
+    background: rgba(0, 0, 0, 0.8);
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+}
+  
+.img-8 {
+    background-image: url(file:///home/yash2420/Bootstrap/circle/twisty.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: inset
+          0 0 0 20px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.1);
+      transition: all 0.4s ease-in-out;
+  }
+  
+  .img-8:hover {
+    box-shadow: 
+          inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+          0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
